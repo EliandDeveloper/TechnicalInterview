@@ -1,0 +1,57 @@
+# Build Folders
+bin/
+obj/
+out/
+
+# User-specific Files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs, Database, and Test Results
+*.log
+*.vspscc
+*.vssscc
+TestResults/
+coverage/
+coverage.xml
+
+# Visual Studio-specific Files
+.vscode/
+.vs/
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+
+# Dependency and Package Management
+node_modules/
+packages/
+!packages/repositories.config
+
+# Environment and Config Files
+appsettings*.json
+secrets.json
+
+# macOS/Linux System Files
+.DS_Store
+*.swp
+*.swo
+
+# Windows System Files
+Thumbs.db
+desktop.ini
+
+# Rider & JetBrains IDE Files
+.idea/
+*.sln.iml
+
+# NuGet Packages
+*.nupkg
+project.lock.json
+global.json
+
+# .NET Core Specific
+*.db
+*.sqlite
+*.pdb
