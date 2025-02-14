@@ -1,0 +1,15 @@
+C:\Users\MSI\OneDrive\Escritorio\Interview\Technical\Technical.Application\bin\Debug\netstandard2.1\Technical.Application.deps.json
+C:\Users\MSI\OneDrive\Escritorio\Interview\Technical\Technical.Application\bin\Debug\netstandard2.1\Technical.Application.dll
+C:\Users\MSI\OneDrive\Escritorio\Interview\Technical\Technical.Application\bin\Debug\netstandard2.1\Technical.Application.pdb
+C:\Users\MSI\OneDrive\Escritorio\Interview\Technical\Technical.Application\bin\Debug\netstandard2.1\Technical.Domain.dll
+C:\Users\MSI\OneDrive\Escritorio\Interview\Technical\Technical.Application\bin\Debug\netstandard2.1\Technical.Infraestructure.dll
+C:\Users\MSI\OneDrive\Escritorio\Interview\Technical\Technical.Application\bin\Debug\netstandard2.1\Technical.Infraestructure.pdb
+C:\Users\MSI\OneDrive\Escritorio\Interview\Technical\Technical.Application\bin\Debug\netstandard2.1\Technical.Domain.pdb
+C:\Users\MSI\OneDrive\Escritorio\Interview\Technical\Technical.Application\obj\Debug\netstandard2.1\Technical.Application.csproj.AssemblyReference.cache
+C:\Users\MSI\OneDrive\Escritorio\Interview\Technical\Technical.Application\obj\Debug\netstandard2.1\Technical.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSI\OneDrive\Escritorio\Interview\Technical\Technical.Application\obj\Debug\netstandard2.1\Technical.Application.AssemblyInfoInputs.cache
+C:\Users\MSI\OneDrive\Escritorio\Interview\Technical\Technical.Application\obj\Debug\netstandard2.1\Technical.Application.AssemblyInfo.cs
+C:\Users\MSI\OneDrive\Escritorio\Interview\Technical\Technical.Application\obj\Debug\netstandard2.1\Technical.Application.csproj.CoreCompileInputs.cache
+C:\Users\MSI\OneDrive\Escritorio\Interview\Technical\Technical.Application\obj\Debug\netstandard2.1\Technica.1A2F9971.Up2Date
+C:\Users\MSI\OneDrive\Escritorio\Interview\Technical\Technical.Application\obj\Debug\netstandard2.1\Technical.Application.dll
+C:\Users\MSI\OneDrive\Escritorio\Interview\Technical\Technical.Application\obj\Debug\netstandard2.1\Technical.Application.pdb

@@ -1,0 +1,33 @@
+name: Build and Test .NET Core
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+  pull_request:
+    branches:
+      - main
+      - develop
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🛎 Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: 🏗 Setup .NET Core
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '8.0.x' # Update to the .NET version you need
+
+      - name: 📦 Restore Dependencies
+        run: dotnet restore
+
+      - name: 🔬 Run Tests
+        run: dotnet test --no-restore --verbosity normal
+
+      - name: 🚀 Build Project
+        run: dotnet build --no-restore --configuration Release

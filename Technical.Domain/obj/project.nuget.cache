@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Th7mmS2+uvQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\MSI\\OneDrive\\Escritorio\\Interview\\Technical\\Technical.Domain\\Technical.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MSI\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
