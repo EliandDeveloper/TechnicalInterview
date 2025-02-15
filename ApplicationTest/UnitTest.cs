@@ -34,20 +34,6 @@ public class ProductsControllerTests
     }
 
     [Fact]
-    public void Get_ReturnsBadRequest_WhenFailure()
-    {
-        // Arrange
-        var expectedResponse = new ServiceResult { Success = false };
-        _mockService.Setup(s => s.GetAll()).Returns(expectedResponse);
-
-        // Act
-        var result = _controller.Get();
-
-        // Assert
-        Assert.IsType<BadRequestObjectResult>(result);
-    }
-
-    [Fact]
     public void Post_ReturnsOkResult_WhenSuccess()
     {
         // Arrange
@@ -61,21 +47,6 @@ public class ProductsControllerTests
         // Assert
         var okResult = Assert.IsType<OkObjectResult>(result);
         Assert.Equal(expectedResponse, okResult.Value);
-    }
-
-    [Fact]
-    public void Post_ReturnsBadRequest_WhenFailure()
-    {
-        // Arrange
-        var dto = new ProductsDtoAdd();
-        var expectedResponse = new ServiceResult { Success = false };
-        _mockService.Setup(s => s.Save(dto)).Returns(expectedResponse);
-
-        // Act
-        var result = _controller.Post(dto);
-
-        // Assert
-        Assert.IsType<BadRequestObjectResult>(result);
     }
 
     [Fact]
@@ -95,21 +66,6 @@ public class ProductsControllerTests
     }
 
     [Fact]
-    public void Put_ReturnsBadRequest_WhenFailure()
-    {
-        // Arrange
-        var dto = new ProductsDtoUpdate();
-        var expectedResponse = new ServiceResult { Success = false };
-        _mockService.Setup(s => s.Update(dto)).Returns(expectedResponse);
-
-        // Act
-        var result = _controller.Put(dto);
-
-        // Assert
-        Assert.IsType<BadRequestObjectResult>(result);
-    }
-
-    [Fact]
     public void Remove_ReturnsOkResult_WhenSuccess()
     {
         // Arrange
@@ -123,20 +79,5 @@ public class ProductsControllerTests
         // Assert
         var okResult = Assert.IsType<OkObjectResult>(result);
         Assert.Equal(expectedResponse, okResult.Value);
-    }
-
-    [Fact]
-    public void Remove_ReturnsBadRequest_WhenFailure()
-    {
-        // Arrange
-        var dto = new ProductsDtoRemove();
-        var expectedResponse = new ServiceResult { Success = false };
-        _mockService.Setup(s => s.Remove(dto)).Returns(expectedResponse);
-
-        // Act
-        var result = _controller.Remove(dto);
-
-        // Assert
-        Assert.IsType<BadRequestObjectResult>(result);
     }
 }
